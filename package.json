@@ -1,0 +1,28 @@
+{
+  "name": "sr0wx.node",
+  "version": "0.0.1",
+  "description": "SR0WX - weather notification station implemented in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kamil4521@github.com/kamil4521/sr0wx.node.git"
+  },
+  "keywords": [
+    "sr0wx",
+    "weather",
+    "hamradio"
+  ],
+  "author": "Kamil Mysliwiec",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kamil4521/sr0wx.node/issues"
+  },
+  "homepage": "https://github.com/kamil4521/sr0wx.node#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}
