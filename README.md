@@ -1,5 +1,5 @@
 # sr0wx.node
-SR0WX node.js implementation
+SR0WX [node.js](http://nodejs.org) implementation.
 
-Automatic hamradio weather station written in python.
+Automatic hamradio weather station.
 Inspirated by SR0WX.py
