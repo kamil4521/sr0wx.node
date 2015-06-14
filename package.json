@@ -23,6 +23,7 @@
   "homepage": "https://github.com/kamil4521/sr0wx.node#readme",
   "devDependencies": {
     "chai": "^3.0.0",
+    "example-middleware": "file:middlewares\\example_middleware",
     "mocha": "^2.2.5"
   }
 }
