@@ -6,6 +6,6 @@ install:
   - npm install -g mocha
 env:
   - TEST_DIR=.
-  - TEST_DIR=modules/example_module
+  - TEST_DIR=middlewares/example_middleware
 script:
   - cd $TEST_DIR && npm install && npm test
