@@ -1,10 +1,10 @@
 var expect = require('chai').expect;
-var ExampleModule = require('../index.js');
+var ExampleMiddleware = require('../index.js');
 
-describe('example_module tests', function(){
+describe('example_middleware tests', function(){
     var exampleModule = null;
     before(function(done){
-        exampleModule = new ExampleModule();
+        exampleModule = new ExampleMiddleware();
         done();
     });
 

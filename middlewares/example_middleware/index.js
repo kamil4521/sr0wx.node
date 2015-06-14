@@ -1,15 +1,15 @@
 var util = require("util");
 var events = require("events");
 
-function ExampleModule() {
+function ExampleMiddleware() {
     events.EventEmitter.call(this);
 }
 
-util.inherits(ExampleModule, events.EventEmitter);
+util.inherits(ExampleMiddleware, events.EventEmitter);
 
-ExampleModule.prototype.process = function(obj) {
+ExampleMiddleware.prototype.process = function(obj) {
     console.log('Processing data & returning result on event...');
     this.emit("data", util.format("Received object %s", JSON.stringify(obj)));
 };
 
-exports = module.exports = ExampleModule;
+exports = module.exports = ExampleMiddleware;
