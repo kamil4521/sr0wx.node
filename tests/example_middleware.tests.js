@@ -11,13 +11,13 @@ describe('Adding example middleware to app', function(){
             done();
         });
 
-        it('Should ok', function(done){
+        it('Should use middleware', function(done){
             var exampleMiddleware = new ExampleMiddleware();
             exampleMiddleware.on('data', function(data){
                 expect(JSON.stringify(sr0wx)).is.equal(data);
                 done();
             });
-            exampleMiddleware.register(sr0wx);
+            sr0wx.use(exampleMiddleware);
         });
     });
 });
